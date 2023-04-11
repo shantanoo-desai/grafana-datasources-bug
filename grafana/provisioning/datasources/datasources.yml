@@ -1,0 +1,27 @@
+apiVersion: 1
+
+datasources:
+  - name: Komponist-InfluxDBv1
+    type: influxdb
+    access: proxy
+    database: komponistdb
+    user: rw_user
+    url: http://komponist_influxdbv1:8086
+    jsonData:
+      httpMode: GET
+    secureJsonData:
+      password: test
+    editable: true
+
+  - name: Komponist-InfluxDBv2
+    type: influxdb
+    access: proxy
+    url: http://komponist_influxdbv2:8087
+    jsonData:
+      version: Flux
+      organization: komponistorg
+      defaultBucket: komponistdb
+      tlsSkipVerify: true
+    secureJsonData:
+      token: testToken
+    editable: true

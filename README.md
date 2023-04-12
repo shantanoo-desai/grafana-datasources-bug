@@ -83,6 +83,14 @@ Many times it is set and often the value stays empty.
 
 Potential Bug Report reported at https://github.com/grafana/grafana/issues/66316
 
+## Error Matrix
+
+| Grafana Version | `database` Set |
+|:---------------:|:--------------:|
+| `9.4.x`         |  __NO__        |
+| `9.3.x`         |  __YES__       |
+| `9.2.x`         |  __YES__       |           
+
 ## Environment
 
 

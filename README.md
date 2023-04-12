@@ -75,7 +75,16 @@ which should show an empty `database: ""` in the _Komponist-InfluxDBv1_
 
 Many times it is set and often the value stays empty.
 
+### Result Video
+
+[231259336-56238a61-65dc-4d40-ba5b-7d5bee956d7a.webm](https://user-images.githubusercontent.com/12070966/231376681-a9d43aa4-3e1b-4d76-a74e-76649f578503.webm)
+
+### Reporting
+
+Potential Bug Report reported at https://github.com/grafana/grafana/issues/66316
+
 ## Environment
+
 
 ### Docker Version / Docker Compose Version
 

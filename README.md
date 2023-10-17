@@ -1,5 +1,7 @@
 # Grafana Datasources Provisioning Bug
 
+> NOTE SOLVED in Grafana v >9.5.1
+
 This repository reproduces a _potential_ bug where upon trying to provision InfluxDBv1 Datasource
 the `database` value is not set.
 
